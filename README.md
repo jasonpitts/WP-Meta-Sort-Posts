@@ -9,7 +9,9 @@ WP Meta Sort Posts Plugin Shortcode Usage
 =========================================
 Create a new page and include a shortcode in the following format:
  
+ 
 [msp query_string="QUERY"]
+ 
  
 “QUERY” in the above example refers to a complete query in URL Query String format. Both Public and Private WordPress Query Variables can be passed as long as it is formatted appropriately. e.g.
  
