@@ -2,7 +2,7 @@
 
 /*
   Plugin Name: WP Meta Sort Posts
-  Plugin URI:
+  Plugin URI: http://jasonpitts.com/wp-meta-sort-posts-wordpress-plugin/
   Description: This plugin allows you to create pages of posts sorted using shortcodes. Sort Posts by your custom fields or anything else you can pass to the query_posts function.
   Version: 0.9
   Author: Jason Pitts
