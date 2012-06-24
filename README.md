@@ -4,15 +4,14 @@ WP-Meta-Sort-Posts
 This is a WordPress plugin that allows blog owners to create pages with lists of posts using custom queries specified in a shortcode.
 
 
-
 WP Meta Sort Posts Plugin Shortcode Usage
 =========================================
 Create a new page and include a shortcode in the following format:
- 
- 
+ <br />
+ <br />
 [msp query_string="QUERY"]
- 
- 
+ <br />
+ <br />
 “QUERY” in the above example refers to a complete query in URL Query String format. Both Public and Private WordPress Query Variables can be passed as long as it is formatted appropriately. e.g.
  
 [msp query_string="meta_key=shortcode_test&meta_value=Arizona&orderby=meta_value&order=asc"]
