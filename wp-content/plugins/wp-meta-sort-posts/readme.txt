@@ -23,10 +23,3 @@ If you prefer, you can also pass each argument separately.
 The same query will be performed as in the example above if the arguments are passed like this.
  
 [msp meta_key="msp_test" meta_value="Arizona" orderby="meta_value" order="asc"]
-
-
-To Do
-==================
-1.) Configurable Options for default loop
-2.) CSS options for default loop
-3.) Configurable  Nav Options
