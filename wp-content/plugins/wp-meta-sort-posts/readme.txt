@@ -23,3 +23,5 @@ If you prefer, you can also pass each argument separately.
 The same query will be performed as in the example above if the arguments are passed like this.
  
 [msp meta_key="msp_test" meta_value="Arizona" orderby="meta_value" order="asc"]
+
+-jmp
