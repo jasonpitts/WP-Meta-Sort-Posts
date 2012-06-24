@@ -139,7 +139,7 @@ The same query will be performed as in the original example if the arguments are
 // Get RSS Feed(s)
 include_once(ABSPATH . WPINC . '/feed.php');
 
-$rss = fetch_feed('http://jasonpitts.com/wp-meta-sort-posts/feed/');
+$rss = fetch_feed('http://jasonpitts.com/wp-meta-sort-posts-wordpress-plugin/feed/');
 if (!is_wp_error($rss)) : // Checks that the object is created correctly 
 
     $maxitems = $rss->get_item_quantity(5); // Figure out how many total items there are, but limit it to 5. 
@@ -160,7 +160,7 @@ endif;
                     <li>
                         <a href='<?php echo esc_url($item->get_permalink()); ?>'
                            title='<?php echo 'Posted ' . $item->get_date('j F Y | g:i a'); ?>'>
-                            <?php echo esc_html($item->get_title()); ?></a>
+                            <?php echo preg_replace('/((\w+\W*){14}(\w+))(.*)/', '${1}', esc_html($item->get_description())); ?></a>
                     </li>
                 <?php endforeach; ?>
         </ul>
@@ -174,7 +174,7 @@ endif;
         // Get RSS Feed(s)
         include_once(ABSPATH . WPINC . '/feed.php');
 
-        $rss = fetch_feed('http://jasonpitts.com/category/wordpress/feed');
+        $rss = fetch_feed('http://jasonpitts.com/category/wordpress/feed/');
         if (!is_wp_error($rss)) : // Checks that the object is created correctly 
 
             $maxitems = $rss->get_item_quantity(15); // Figure out how many total items there are, but limit it to 15. 
