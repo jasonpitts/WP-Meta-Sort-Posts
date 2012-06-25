@@ -1,7 +1,7 @@
 === WP Meta Sort Posts ===
 Contributors: jasonpitts
 Donate link: http://jasonpitts.com/wp-meta-sort-posts-wordpress-plugin/
-Tags: comments, spam
+Tags: sort, posts, custom fields, meta, query vars, query_posts
 Requires at least: 2.0.2
 Tested up to: 3.4
 Stable tag: 0.9
