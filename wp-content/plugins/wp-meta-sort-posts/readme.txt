@@ -23,15 +23,16 @@ Create a new page and include a shortcode in the following format:
 <br />
 <code>[msp query_string="QUERY"]</code>
 <br />
-“QUERY” in the above example refers to a complete query in URL Query String format. Both Public and Private WordPress Query Variables can be passed as long as it is formatted appropriately. e.g.
+“QUERY” in the above example refers to a complete query in URL Query String format. Both public and private <a href="http://codex.wordpress.org/WordPress_Query_Vars" target="_blank">WordPress query variables</a> can be passed as long as it is formatted appropriately, e.g.
 <br />
 <code>[msp query_string="meta_key=shortcode_test&meta_value=Arizona&orderby=meta_value&order=asc"]</code>
 <br />
-Notes: Do not URL Encode special characters like spaces to %20. Do not use query vars “paged” and “offset” in your shortcode because they are automatically calculated and added to the query string.
-If you prefer, you can also pass each argument separately.
+<em>Notes:</em> Do not URL Encode special characters like spaces to %20. Do not use query variables “paged” and “offset” in your shortcode because they are automatically calculated and added to the query string.
+<br />
+If you prefer, you can also pass each argument separately, e.g.
 <br />
 <code>[msp Argument1=”Value1” Argument2=”Value2” Argument3=”Value3”]</code>
 <br />
-The same query will be performed as in the original example if the arguments are passed like this.
+The same query will be performed as in the first example if the arguments are passed like this.
 <br />
 <code>[msp meta_key="shortcode_test" meta_value="Arizona" orderby="meta_value" order="asc"]</code>
