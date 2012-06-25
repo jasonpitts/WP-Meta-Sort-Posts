@@ -1,7 +1,7 @@
 === WP Meta Sort Posts ===
 Contributors: jasonpitts
 Donate link: http://jasonpitts.com/wp-meta-sort-posts-wordpress-plugin/
-Tags: sort, posts, custom fields, meta, query vars, query_posts, meta_key, meta_value
+Tags: sort, posts, custom fields, meta, query vars, query_posts, meta_key, meta_value, arrange post order, change post order, custom post order, modify order, post order, sort posts, posts sort, order by, order by custom field, sort by custom field, reorder, alphabetical
 Requires at least: 2.0.2
 Tested up to: 3.4
 Stable tag: 0.9
