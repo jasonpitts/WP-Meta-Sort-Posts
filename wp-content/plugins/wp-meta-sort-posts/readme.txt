@@ -18,21 +18,21 @@ I initially developed WP Meta Sort Posts plugin because I needed to be able to c
 == Installation ==
 
 
-WP Meta Sort Posts Plugin Shortcode Usage
-
+<strong>WP Meta Sort Posts Plugin Shortcode Usage</strong>
+<br /><br />
 Create a new page and include a shortcode in the following format:
- 
-[msp query_string="QUERY"]
- 
+<br /><br /> 
+<code>[msp query_string="QUERY"]</code>
+<br /><br /> 
 “QUERY” in the above example refers to a complete query in URL Query String format. Both Public and Private WordPress Query Variables can be passed as long as it is formatted appropriately. e.g.
- 
-[msp query_string="meta_key=shortcode_test&meta_value=Arizona&orderby=meta_value&order=asc"]
- 
+<br /><br /> 
+<code>[msp query_string="meta_key=shortcode_test&meta_value=Arizona&orderby=meta_value&order=asc"]</code>
+<br /><br /> 
 Notes: Do not URL Encode special characters like spaces to %20. Do not use query vars “paged” and “offset” in your shortcode because they are automatically calculated and added to the query string.
 If you prefer, you can also pass each argument separately.
- 
-[msp Argument1=”Value1” Argument2=”Value2” Argument3=”Value3”]
- 
+<br /><br /> 
+<code>[msp Argument1=”Value1” Argument2=”Value2” Argument3=”Value3”]</code>
+<br /><br /> 
 The same query will be performed as in the example above if the arguments are passed like this.
- 
-[msp meta_key="msp_test" meta_value="Arizona" orderby="meta_value" order="asc"]
+<br /><br /> 
+<code>[msp meta_key="msp_test" meta_value="Arizona" orderby="meta_value" order="asc"]</code>
